@@ -1,0 +1,39 @@
+
+.accueil-main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /*padding:80px;*/
+}
+
+.accueil-introduction{
+  width: 40%;
+  align-items: flex-start;
+  margin: auto;
+}
+
+
+.portrait{
+  padding: 20px;
+  border-right: solid 2px #8E86B5;
+  border-bottom: solid 2px #8E86B5;
+  margin: auto;
+}
+
+.accueil-section-photos{
+  background-color: white;
+}
+
+.accueil-section-photos h2{
+  color: #242424;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.accueil-section-photos div{
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  justify-content: center;
+  margin-bottom: 15px;
+}

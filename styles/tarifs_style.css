@@ -1,0 +1,75 @@
+
+main{
+  margin: auto;
+}
+
+h1{
+  padding: 0%;
+}
+
+h3{
+  color: #A5B4FC;
+}
+
+h4{
+  color: #A5B4FC;
+}
+
+p{
+  padding-top: 15px;
+  padding-right: 10px;
+  padding-bottom: 40px;
+}
+
+table {
+  text-align: center;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th /* Mettre une bordure sur les td ET les th */ {
+  border: 1px solid #A5B4FC;
+  padding: 15px;
+}
+
+td {
+  padding: 80px;
+}
+
+caption{
+  padding-top: 10px;
+  caption-side: bottom;
+}
+
+section{
+  padding-left: 150px;
+  padding-right: 150px;
+}
+.grille-tarifs{
+  padding-top: 0%;
+}
+
+.grille-tarifs h2{
+  color: #A5B4FC;
+  padding-bottom: 30px;
+}
+
+.tarifs-contenu{
+  padding-top: 0%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10%;
+}
+
+.tarifs-produit{
+  border-right: 1px #8e86b5 solid;
+  border-bottom: 1px #8e86b5 solid;
+}
+
+.section-titre{
+  padding-top: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}

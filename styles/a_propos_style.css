@@ -1,0 +1,24 @@
+
+.a-propos-contenu{
+  border-right: 1px #8e86b5 solid;
+  border-bottom: 1px #8e86b5 solid;
+  padding: 50px;
+  
+}
+
+.a-propos-contenu h2{
+  margin-top: 60px;
+}
+
+.a-propos-contenu ul{
+  margin-top: 30px;
+}
+
+.a-propos-main{
+  width: 50%;
+  margin: auto;
+}
+
+.conteneur-cta{
+  text-align: center;
+}
